@@ -1,0 +1,58 @@
+.razorpayPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #000;
+    height: 80vh;
+}
+
+.razorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    background-color: #02042B;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:monospace;
+}
+
+.box h1{
+    background-color: #2783F3;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+
+.box button{
+    padding: 15px 40px;
+    margin: 10px;
+    background-color:#FFFFFF ;
+    color: #336FCE;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    border:none;
+   
+}
+
+.box button :hover{
+    zoom: normal;
+    color: #00EABE;
+}

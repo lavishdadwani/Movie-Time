@@ -1,0 +1,27 @@
+.ratio {
+  width: 90vw;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: #0C111B;
+  flex-direction: column;
+}
+.newsDetailsPage{
+    width: 100vw;
+    margin: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+    background-color:#0C111B;
+    border-bottom: 5px solid lightblue;
+}
+.IFrame {
+  width: 80vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

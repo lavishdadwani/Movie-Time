@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu:wght@300;400&display=swap');
+
+.profilePage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.profile :first-child{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+
+}
+.profile :last-child{
+    text-transform: capitalize;
+}
+.profileBtn{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color:#0A6FEB;
+    border: none;
+    border-radius: 10px;
+    color: #f9f9f9;
+}
+
+.profileBtn a{
+    margin: 10px;
+
+}
+.profileBtn button{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    color: #3378D9;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.profileBtn  a{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    color: #3378D9;
+    border-radius: 10px;
+    border: none;
+}
+.profileBtn button :hover{
+    padding: 15px 20px;
+}

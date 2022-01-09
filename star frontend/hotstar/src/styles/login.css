@@ -1,0 +1,73 @@
+.imageBack img{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background:center center / cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+.logIn_page{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container{
+    display: flex;
+    position:absolute;
+    top: 114px;
+    color: #737373;
+    /* right: 580px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0,.75);
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.h2{
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signIn {
+    background-color: #E50914;
+    padding: 10px 20px;
+}
+
+.login_container input {
+    background-color: #333;
+    color: #8c8c8c;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 53px;
+    padding-left: 23px;
+    padding-right: 90px;
+    margin: 10px 50px;
+    border:none ;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.needHelp{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 250px;
+
+}
+.signUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 120px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
